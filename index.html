@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="btns">
+        <div class="container">
+            <div class="btns_menu">
+                <button class="btn home">Home</button>
+                <button class="btn about">About</button>
+                <button class="btn skills">Skills</button>
+                <button class="btn works">Works</button>
+                <button class="btn contact">Contact</button>
+            </div>
+        </div>
+    </div>
+    <section id="home">
+        <div class="wrapper">
+            <h1>Home</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae a culpa dolorum perferendis amet exercitationem illo sequi, eos non pariatur sint harum dignissimos earum optio assumenda voluptatem est officiis?</h3>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <h1>About</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae a culpa dolorum perferendis amet exercitationem illo sequi, eos non pariatur sint harum dignissimos earum optio assumenda voluptatem est officiis?</h3>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="wrapper">
+            <h1>Skills</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae a culpa dolorum perferendis amet exercitationem illo sequi, eos non pariatur sint harum dignissimos earum optio assumenda voluptatem est officiis?</h3>
+        </div>
+    </section>
+    <section id="works">
+        <div class="wrapper">
+            <h1>Works</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae a culpa dolorum perferendis amet exercitationem illo sequi, eos non pariatur sint harum dignissimos earum optio assumenda voluptatem est officiis?</h3>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="wrapper">
+            <h1>Contact</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, molestiae a culpa dolorum perferendis amet exercitationem illo sequi, eos non pariatur sint harum dignissimos earum optio assumenda voluptatem est officiis?</h3>
+        </div>
+    </section>
+    <script>
+        const btnHome = document.querySelector('.home');
+        const sectionHome = document.querySelector('#home');
+        btnHome.addEventListener('click', function() {
+            sectionHome.scrollIntoView({behavior:"smooth" , block:"center"});
+        });
+        </script>
+    <script>
+        const btnAbout = document.querySelector('.about');
+        const sectionAbout = document.querySelector('#about');
+        btnAbout.addEventListener('click', function() {
+            sectionAbout.scrollIntoView({behavior:"smooth" , block:"center"});
+        });
+        </script>
+    <script>
+        const btnSkills = document.querySelector('.skills');
+        const sectionSkills = document.querySelector('#skills');
+        btnSkills.addEventListener('click', function() {
+            sectionSkills.scrollIntoView({behavior:"smooth" , block:"center"});
+        });
+        </script>
+    <script>
+        const btnWorks = document.querySelector('.works');
+        const sectionWorks = document.querySelector('#works');
+        btnWorks.addEventListener('click', function() {
+            sectionWorks.scrollIntoView({behavior:"smooth" , block:"center"});
+        });
+        </script>
+    <script>
+        const btnContact = document.querySelector('.contact');
+        const sectionContact = document.querySelector('#contact');
+        btnContact.addEventListener('click', function() {
+            sectionContact.scrollIntoView({behavior:"smooth" , block:"center"});
+        });
+        </script>
+</body>
+</html>
