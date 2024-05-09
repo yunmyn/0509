@@ -1,0 +1,66 @@
+body {
+        font-family: "Jua", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+section:nth-child(odd) {
+    background-color: skyblue;
+}
+.wrapper {
+    padding: 88px;
+    max-width: 1200px;
+    margin: auto;
+}
+h1 {
+    color: rgb(30, 103, 187);
+    font-size: 48px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 100;
+}
+.btns {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.btns .container {
+    position: relative;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+.btns_menu {
+    display: flex;
+    justify-content: center;
+}
+.btns_menu .btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #193a40;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #9ab2d9;
+}
+.btns_menu .btn:hover {
+    background-color: #ab63e6;
+    border: 1px solid #fff;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
