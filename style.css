@@ -49,14 +49,26 @@ h3 {
     color: #193a40;
     width: 150px;
     height: 40px;
-    border-radius: 6px;
     margin: 4px;
     cursor: pointer;
-    background-color: #9ab2d9;
+    background-color: none;
+}
+.container_bgcolor {
+    background-color: skyblue;
+    transition: 0.3s;
+    border-radius: 6px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container_bgcolor.show {
+    opacity: 1;
 }
 .btns_menu .btn:hover {
     background-color: #ab63e6;
-    border: 1px solid #fff;
 }
 button {
     background-color: transparent;
@@ -64,6 +76,21 @@ button {
     border: none;
     outline: none;
 }
-section .about .h3 {
-    
+.arrow-up{
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: beige;
+    color: gray;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .3s;
+}
+.arrow-up span {
+    font-size: 40px;
+}
+.arrow-up.show {
+    opacity: 1;
 }
